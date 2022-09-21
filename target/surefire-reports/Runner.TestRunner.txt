@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.995 sec <<< FAILURE!
+User verifies that the About section exists in the product page(User validations for Amazon Product page)  Time elapsed: 0.491 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user navigates to Amazon homepage' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user navigates to Amazon homepage")
+public void user_navigates_to_amazon_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks on the hamburger menu")
+public void user_clicks_on_the_hamburger_menu() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks on the {string} menu item")
+public void user_clicks_on_the_menu_item(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks on {string} under the {string} submenu")
+public void user_clicks_on_under_the_submenu(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user scrolls to the {string} section")
+public void user_scrolls_to_the_section(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user checks the {string} checkbox")
+public void user_checks_the_checkbox(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user sorts the results with price High to Low.")
+public void user_sorts_the_results_with_price_high_to_low() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks on the 2nd item on the results")
+public void user_clicks_on_the_2nd_item_on_the_results() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user switches to the product tab")
+public void user_switches_to_the_product_tab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user should see {string} section in the page")
+public void user_should_see_section_in_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
